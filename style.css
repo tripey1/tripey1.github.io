@@ -1,0 +1,286 @@
+.navbar {
+    position: fixed !important;
+    display: flex;
+    left: 0;
+    right: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    z-index: 1;
+}
+
+.nav-link {
+    color: #3f1464 !important;
+    font-size: 25px !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+
+}
+
+
+
+#hero .container-fluid {
+    padding: 0px 0px !important;
+}
+
+#hero video {
+    width: 100%;
+    height: auto;
+}
+
+#our-story {
+    padding: 5% 0px;
+    color: #3b685a
+}
+
+#our-story #content {
+    padding: 5% 0%;
+}
+
+#our-story #text {
+    padding-left: 10%;
+    padding-top: 2%;
+
+}
+
+#our-story p {
+    font-size: 1.5vw;
+}
+
+#our-story h1 {
+    font-size: 2.4vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+#our-service {
+    background-color: #f87e32;
+    color: #fff;
+    text-align: center;
+}
+
+#our-service #main {
+    padding: 15% 10%;
+    font-size: 7vw;
+}
+
+#our-service #text {
+    font-size: 1.5vw;
+}
+
+#service-1 {
+    height: 100vh;
+    background-color: rgb(49, 180, 242);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+
+#service-1 .container-fluid {
+    padding: 0px 0px !important;
+}
+
+#service-1 .col {
+    padding: 0px 0px !important;
+}
+
+#service-1 #second-img img {
+    width: 100%;
+    height: auto;
+}
+
+#service-2 {
+    height: 100vh;
+    background-color: #fff;
+    color: rgb(49, 180, 242);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+#service-2 .container-fluid {
+    padding: 0px 0px !important;
+}
+
+#service-2 .col {
+    padding: 0px 0px !important;
+}
+
+#service-2 #second-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+#promotion {
+    height: 100vh;
+    background-color: rgb(49, 180, 242);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+#promotion .container-fluid {
+    padding: 0px 0px !important;
+}
+
+#promotion .col {
+    padding: 0px 0px !important;
+}
+
+#promotion #second-img img {
+    max-width: 100%;
+    height: 100%;
+}
+
+#download-app {
+    width: auto;
+    text-align: center;
+    background-color: #f87e32;
+    color: #fff;
+}
+
+#about-us {
+    background-color: #fff;
+    color: #3b685a;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#vision {
+    text-align: center;
+    background-color: rgb(49, 180, 242);
+    color: #fff;
+}
+
+#vision img {
+    max-width: 100%;
+    height: auto;
+}
+
+#mission {
+    text-align: center;
+    background-color: #f87e32;
+    color: #fff;
+}
+
+#meet-team {
+    padding: 0% 0%;
+    background-color: #fff;
+    text-align: center;
+    color: #3b685a
+}
+
+#meet-team .col {
+    padding-top: 3%;
+
+}
+
+#trip-invite {
+    height: auto;
+    color: white;
+}
+
+#footer {
+    background-color: #ff914d;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#ser1-text {
+    padding: 14.7% 8% !important;
+    font-size: 2.2vw !important;
+}
+
+#ser-text {
+    padding: 8% !important;
+}
+
+#promo-text {
+    padding: 29.3% 8% !important;
+}
+
+
+.head {
+    font-size: 5vw;
+}
+
+.body {
+    font-size: 1.5vw;
+}
+
+#download-app img {
+    padding-top: 3.7%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#footer .head {
+    font-size: 2.5vw;
+}
+
+#meet-team img {
+    max-width: 100%;
+    height: auto;
+}
+
+#meet-team .container {
+    padding: 5%;
+}
+
+#meet-team .card-title {
+    font-size: 1.3vw;
+}
+
+#meet-team .card-text {
+    font-size: 0.9vw;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-img-top {
+    width: 100% !important;
+    height: 20vw !important;
+    object-fit: contain !important;
+}
+
+#stand {
+    text-align: left;
+    padding: 2% 25%;
+}
+
+#stand p {
+    font-size: 0.9vw;
+}
+
+#stand1 {
+    text-align: left;
+    padding: 2% 10%;
+}
+
+#stand1 p {
+    font-size: 0.9vw;
+}
+
+
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column;
+    }
+
+}
