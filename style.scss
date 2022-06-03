@@ -1,0 +1,26 @@
+.wrapper {
+    width: calc(100% / #{$cols});
+    margin: 2px;
+}
+
+
+.padded-container {
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: #{$ratio-16-9 / $cols};
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    margin: auto;
+}

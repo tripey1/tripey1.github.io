@@ -213,10 +213,12 @@ h1 {
 
 .head {
     font-size: 5vw;
+    font-family: 'Archivo Black', sans-serif !important;
 }
 
 .body {
     font-size: 1.5vw;
+    font-family: 'Judson', serif !important;
 }
 
 #download-app img {
@@ -227,6 +229,18 @@ h1 {
     max-width: 100%;
     height: auto;
 }
+
+
+#local-services {
+    height: 100vh;
+    background-color: #fff;
+}
+
+#ai {
+    height: 100vh;
+    background-color: rgb(49, 180, 242);
+}
+
 
 #footer .head {
     font-size: 2.5vw;
@@ -266,6 +280,7 @@ h1 {
 
 #stand p {
     font-size: 0.9vw;
+
 }
 
 #stand1 {
@@ -296,4 +311,9 @@ h4,
 h5,
 h6 {
     font-family: 'Archivo Black', sans-serif !important;
+}
+
+@font-face {
+    font-family: asd;
+    src: url();
 }
